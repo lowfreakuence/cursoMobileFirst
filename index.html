@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)"/>
   <title>Proyecto Batabit</title>
 </head>
+
 <body>
   <header>
     <img src="/assets/img/logo.svg" alt="">
     <div class="header--title-container">
       <h1>La próxima revolución en el cambio de Criptomonedas</h1>
       <p>Batabit te ayuda a navegar entre los diferentes precios y tendencias</p>
-      <a href="#plans" class="header--button">Conoce nuestros planes <span></span> </a>
+      <a href="#plans" class="header--button">Conoce nuestros planes <span></span></a>
     </div>
   </header>
   
@@ -56,6 +59,35 @@
             <p><b>Actualizado:</b> 19 de Julio 23:45</p>
           </div>
         </div>
+
+        <div class="main-currency-table">
+          <p class="currency-table--title2">Comisiones</p>
+          <div class="currency-table--container">
+            <table>
+              <tr>
+                <td class="table__top-left">Bitrade</td>
+                <td class="table__top-right table__right">$12.96</td>
+              </tr>
+              <tr>
+                <td>Bitpreco</td>
+                <td class="table__right">$13.07</td>
+              </tr>
+              <tr>
+                <td>Novadax</td>
+                <td class="table__right">$13.15</td>
+              </tr>
+              <tr>
+                <td class="table__bottom-left">Coinext</td>
+                <td class="table__bottom-right table__right">$14.96</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="currency-table--date2">
+            <p><b>Actualizado:</b> 19 de Julio 23:45</p>
+          </div>
+        </div>
+
       </section>
     </section>
 
@@ -66,38 +98,35 @@
         <p>Confiable y diseñado para su uso diario</p>
       </div>
 
-      <section class="product-cards--container">
-        <article class="product-detail--card">
-          <span class="clock"></span>
-          <p class="product--card-title">Tiempo real</p>
-          <p class="product--card-body">Nuestra Api toma información minuto a minuto sobre las tasas que más determinan el comportamiento</p>
-        </article>
-      </section>
+      <section class="product-detail-cards">
+        <section class="product-cards--container">
 
-      <section class="product-cards--container">
-        <article class="product-detail--card">
-          <span class="eye"></span>
-          <p class="product--card-title">No hay tasas escondidas</p>
-          <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo</p>
-        </article>
-      </section>
+          <article class="product-detail--card">
+            <span class="clock"></span>
+            <p class="product--card-title">Tiempo real</p>
+            <p class="product--card-body">Nuestra Api toma información minuto a minuto sobre las tasas que más determinan el comportamiento</p>
+          </article>
 
-      <section class="product-cards--container">
-        <article class="product-detail--card">
-          <span class="dollar"></span>
-          <p class="product--card-title">Compara monedas</p>
-          <p class="product--card-body">No más rumores, con Batabit sabrás el valor real de cada moneda en el mercado actual</p>
-        </article>
-      </section>
+          <article class="product-detail--card">
+            <span class="eye"></span>
+            <p class="product--card-title">No hay tasas escondidas</p>
+            <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo</p>
+          </article>
 
-      <section class="product-cards--container">
-        <article class="product-detail--card">
-          <span class="check-circle"></span>
-          <p class="product--card-title">Información Confiable</p>
-          <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
-        </article>
-      </section>
+          <article class="product-detail--card">
+            <span class="dollar"></span>
+            <p class="product--card-title">Compara monedas</p>
+            <p class="product--card-body">No más rumores, con Batabit sabrás el valor real de cada moneda en el mercado actual</p>
+          </article>
 
+          <article class="product-detail--card">
+            <span class="check-circle"></span>
+            <p class="product--card-title">Información Confiable</p>
+            <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+          </article>
+
+        </section>
+      </section>
     </section>
 
     <section class="bitcoin-img-container">
@@ -143,6 +172,19 @@
       </section>
     </section>
   </main>
-  <footer></footer>
+
+  <footer>
+    <section class="left">
+      <ul>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Crunchbase</a></li>
+        <li><a href="#">Hackernews</a></li>
+      </ul>
+    </section>
+    
+    <section class="right">
+      <img src="./assets/img/logo-footer.svg" alt="Logo de Batata 2020">
+    </section>
+  </footer>
 </body>
 </html>
