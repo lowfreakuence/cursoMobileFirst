@@ -425,8 +425,18 @@ main {
   color: #757575;
 }
 
+.plans-container--slider {
+  display: flex;
+  gap: 12px;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .plans-container--card {
   position: relative;
+  scroll-snap-align: center;
   width: 70%;
   min-width: 230px;
   max-width: 300px;
@@ -447,6 +457,32 @@ main {
   left: calc(50% - 60px);
   font-size: 1.2rem;
   background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+  color: var(--just-white);
+}
+
+.recommended2 {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  padding: 6px;
+  top: -15px;
+  left: calc(50% - 60px);
+  font-size: 1.2rem;
+  background-color: var(--secondary-blue);
+  border-radius: 8px;
+  color: var(--just-white);
+}
+
+.recommended3 {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  padding: 6px;
+  top: -15px;
+  left: calc(50% - 60px);
+  font-size: 1.2rem;
+  background-color: purple;
   border-radius: 8px;
   color: var(--just-white);
 }
